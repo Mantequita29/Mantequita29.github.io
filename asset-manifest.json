@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/Mantequita29/Mantequita29.github.io/static/css/main.d52d5af1.css",
-    "main.js": "/Mantequita29/Mantequita29.github.io/static/js/main.4f4db372.js",
-    "index.html": "/Mantequita29/Mantequita29.github.io/index.html",
-    "main.d52d5af1.css.map": "/Mantequita29/Mantequita29.github.io/static/css/main.d52d5af1.css.map",
-    "main.4f4db372.js.map": "/Mantequita29/Mantequita29.github.io/static/js/main.4f4db372.js.map"
+    "main.css": "/Mantequita29.github.io/static/css/main.d52d5af1.css",
+    "main.js": "/Mantequita29.github.io/static/js/main.4f4db372.js",
+    "index.html": "/Mantequita29.github.io/index.html",
+    "main.d52d5af1.css.map": "/Mantequita29.github.io/static/css/main.d52d5af1.css.map",
+    "main.4f4db372.js.map": "/Mantequita29.github.io/static/js/main.4f4db372.js.map"
   },
   "entrypoints": [
     "static/css/main.d52d5af1.css",

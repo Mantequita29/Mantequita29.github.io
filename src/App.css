@@ -1,0 +1,529 @@
+@media(min-width: 1100px){
+  .tituloApp{
+    font-size: 30px;
+    color: rgb(73, 73, 73);
+    margin: 20px;
+  }
+  
+  .formLicenciaNueva{
+    border: 2px rgb(233, 233, 233);
+    background-color: rgb(248, 248, 248);
+    border-radius: 8px;
+    border-style:inset;
+    display:grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    padding: 5px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+  }
+ 
+  .formLicenciaNueva label{
+    font-size: 20px;
+    align-self: center;
+  }
+
+  .formLicenciaNueva input{
+    
+    border: 1px solid grey;
+    border-radius: 4px;
+    background-color: #4CAF50; /* Green */;
+    color: white;
+    font-size: 18px;
+    padding: 5px;
+    width: 150px;
+    max-height: 25px; 
+    text-align: end;
+    margin: 10px;
+  }
+  .formLicenciaNueva select{
+    
+    border: 1px solid grey;
+    border-radius: 4px;
+    background-color: #4CAF50; /* Green */;
+    color: white;
+    font-size: 18px;
+    padding: 5px;
+    width: 150px; 
+    text-align: end;
+    margin: 10px;
+    max-height: 35px;
+  }
+ 
+  .formLicenciaNueva .cbBaja{
+    margin-top: 15px;
+  }
+}
+@media(max-width: 1100px){
+  .tituloApp{
+    font-size: 30px;
+    color: rgb(73, 73, 73);
+    margin: 20px;
+    align-self: auto;
+  }
+
+  .formLicenciaNueva{
+    border: 2px rgb(233, 233, 233);
+    background-color: rgb(248, 248, 248);
+    border-radius: 8px;
+    border-style:inset;
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 8px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+   
+  }
+  
+  .formLicenciaNueva label{
+    font-size: 18px;
+    align-self: center;
+    
+  }
+  
+  
+  
+  .formLicenciaNueva input{
+    
+    border: 1px solid grey;
+    border-radius: 4px;
+    background-color: #4CAF50; /* Green */;
+    color: white;
+    font-size: 18px;
+    width: 150px;
+    
+    margin: 5px;
+    text-align: end;
+  }
+
+  .formLicenciaNueva select{
+    
+    border: 1px solid grey;
+    border-radius: 4px;
+    background-color: #4CAF50; /* Green */;
+    color: white;
+    font-size: 18px;
+    padding: 5px;
+    width: 150px; 
+    text-align: end;
+    margin: 5px;
+  }
+  .formLicenciaNueva datalist{
+    
+    border: 2px solid grey;
+    border-radius: 4px;
+    background-color: #3CBC8D;
+    color: white;
+    font-size: 18px;
+    height: 30px;
+    width: 150px; 
+  }
+  .formLicenciaNueva .cbBaja{
+    width: 25px;
+    height: 25px;
+    margin-left: 70px;
+  }
+  
+}
+@media(max-width: 700px){
+  .tituloApp{
+    font-size: 30px;
+    color: rgb(73, 73, 73);
+    margin: 20px;
+    align-self: auto;
+  }
+
+  .formLicenciaNueva{
+    border: 2px rgb(233, 233, 233);
+    background-color: rgb(248, 248, 248);
+    border-radius: 8px;
+    border-style:inset;
+    display:grid;
+    grid-template-columns: auto;
+    padding: 8px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+   
+  }
+  
+  .formLicenciaNueva label{
+    font-size: 18px;
+    align-self: center;
+    
+  }
+  
+  
+  
+  .formLicenciaNueva input{
+    
+    border: 1px solid grey;
+    border-radius: 4px;
+    background-color: #4CAF50; /* Green */;
+    color: white;
+    font-size: 18px;
+    width: 150px;
+    margin: 2px;
+    text-align: end;
+    padding: 5px;
+  }
+
+  .formLicenciaNueva select{
+    
+    border: 1px solid grey;
+    border-radius: 4px;
+    background-color: #4CAF50; /* Green */;
+    color: white;
+    font-size: 18px;
+    padding: 5px;
+    width: 150px; 
+    text-align: end;
+    margin: 2px;
+  }
+  .formLicenciaNueva datalist{
+    
+    border: 2px solid grey;
+    border-radius: 4px;
+    background-color: #3CBC8D;
+    color: white;
+    font-size: 18px;
+    height: 30px;
+    width: 150px; 
+  }
+  
+  
+}
+
+
+.App label{
+  vertical-align: middle;
+}
+
+.filtroSelect{
+    
+  border: 1px solid grey;
+  border-radius: 4px;
+  background-color: #4CAF50; /* Green */;
+  color: white;
+  font-size: 18px;
+  padding:5px;
+  width: 100px; 
+  text-align: center;
+  margin: 6px;
+  margin-right: 0px;
+}
+
+.filtrosDiv{
+  border: #2d7730;
+  align-items: center;
+  padding: 15px;
+  }
+
+.App {
+  font-family: arial, sans-serif;
+  text-align: center;
+  background-color:  #ffffff;
+  border: 1px rgb(255, 255, 255); 
+  border-style: inset;
+  border-radius: 12px;
+  
+}
+::placeholder{
+  color: white;
+}
+.botonGuardar{
+  background-color: #4CAF50; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 22px;
+  border-radius: 3px;
+  margin: 10px;
+}
+.botonCancel{
+  background-color: #b83b56; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 22px;
+  border-radius: 3px;
+  margin: 10px;
+}
+
+.botonGuardar:hover{
+
+  background-color: #2d7730; 
+  color: white;
+  cursor: pointer;
+
+}
+
+.botonGuardar:disabled{
+  background-color: #c7f3c8;
+  color: white;
+  cursor: pointer;
+}
+
+.btnEliminar{
+  background-color: #b83b56; 
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 22px;
+  border-radius: 3px;
+  margin: 10px;
+}
+.btnEliminar:hover{
+
+  background-color: #4d1c1c; 
+  color: white;
+  cursor: pointer;
+
+}
+
+.botonForzar{
+  background-color: #b83b56; 
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 22px;
+  border-radius: 3px;
+  margin: 10px;
+  
+}
+.botonForzar:hover{
+
+  background-color: #4d1c1c; 
+  color: white;
+  cursor: pointer;
+
+}
+
+table{
+  font-family: arial, sans-serif;
+  border-spacing: 0.5px;
+  border-radius: 6px;
+  border-color: #4e4e4e;
+  width:fit-content;
+  table-layout:auto;
+  margin-left: auto;
+  margin-right: auto;
+}  
+.divTablaContenido{
+    overflow:hidden;
+    overflow-y: scroll;
+    height: 300px;
+    width: fit-content;
+    align-items: center;
+    border-radius: 6px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.divConfig{
+  margin-top: 3rem;
+  
+}
+
+.divConfig .cbEditMail{
+  height: 20px;
+  width: 20px;
+}
+.divConfig label{
+  font-size: 20px;
+}
+
+th{
+  position: sticky;
+  z-index: 2;
+  top: 0;
+  background-color: #dddddd;
+}
+
+td, th {
+  border: 0.2px solid #f0f0f0;
+  padding: 8px;
+  overflow-wrap: break-word;
+  height: 15px; 
+  max-width: 200px;
+}
+tr:nth-child(even) {
+  background-color: #8ce09f;
+  border-radius: 5px;
+}
+tr:nth-child(odd) {
+  background-color: #fafafa;
+  border-radius: 5px;
+}
+
+th:first-of-type {
+  border-top-left-radius: 10px;
+  
+}
+th:last-of-type {
+  border-top-right-radius: 10px;
+}
+tr:last-of-type td:first-of-type {
+  border-bottom-left-radius: 10px;
+}
+tr:last-of-type td:last-of-type {
+  border-bottom-right-radius: 10px;
+}
+
+[list="serviciosLista"] {
+  padding:5px;
+  border:2px solid #ccc;
+  -webkit-border-radius: 4px;
+  border-radius: 5px;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+h1 {
+  margin-bottom: 40px;
+}
+
+.iconoWP{
+  width: 30px;
+  height: 30px;
+  margin: auto;
+  padding: 0;
+}
+
+label {
+  color: #333;
+}
+
+.lblBasic{
+  font-size: 20px;
+}
+.btn-send {
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  width: 80%;
+  margin-left: 3px;
+  }
+.help-block.with-errors {
+  color: #ff5050;
+  margin-top: 5px;
+
+}
+
+.card{
+margin-left: 10px;
+margin-right: 10px;
+}
+
+.greenclass{
+  background-color: #4CAF50;
+  column-width: 20px;
+}
+
+.redclass{
+  background-color: #c70000;
+  column-width: 20px;
+}
+.yellowclass{
+  background-color: #fcad37;
+  column-width: 20px;
+}
+.orangeclass{
+  background-color: #f74d0a;
+  column-width: 20px;
+}
+.blueclass{
+  background-color: #5350ff;
+  column-width: 20px;
+}
+.greyclass{
+  background-color: #615a5a;
+  column-width: 20px;
+}
+.violetaclass{
+  background-color: #610e53;
+  column-width: 20px;
+}
+
+.leftearTexto{
+  text-align: left;
+}
+
+.nombrelicencia{
+  min-height: 100px;
+}
+.formLicenciaNueva .otroTextInput{
+  width: 15rem;
+}
+
+.popup-content {
+  margin: auto;
+  background: rgb(218, 216, 216);
+  width: fit-content;
+  min-width: fit-content;
+  padding: 5px;
+  border-radius: 5px;
+  align-content: center;
+}
+.popup-arrow {
+  color: rgb(255, 255, 255);
+}
+[role='tooltip'].popup-content {
+  width: 200px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 3px;
+}
+
+.popup-overlay {
+  background: rgba(0, 0, 0, 0.5);
+}
+[data-popup='tooltip'].popup-overlay {
+  background: transparent;
+}
+
+.btnPopup{
+  background-color: #b83b56; 
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 22px;
+  border-radius: 3px;
+  margin: 10px;
+  
+}
+.btnPopup:hover{
+
+  background-color: #4d1c1c; 
+  color: white;
+  cursor: pointer;
+
+}
+.ppPopup{
+  display: grid;
+  grid-template-columns: auto;
+  width: fit-content;
+}
+.divButtonPop{
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  margin: 0 auto;
+}
